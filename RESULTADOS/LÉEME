@@ -1,0 +1,32 @@
+¿CÓMO LEER LAS TABLAS DE RESULTADOS?
+
+Cada fichero de la forma nombre_instancia_resultados.xlsx ubicados en las diferentes carpetas dentro de RESULTADOS contiene un libro de excel con 2 hojas:
+
+	1.- ELITISMO: contiene los resultados obtenidos por el algoritmo genético aplicando elitismo para la instancia nombre_instancia.
+
+	2.- SIN ELITISMO: contiene los resultados obtenidos por el algoritmo genético sin aplicar elitismo para la instancia nombre_instancia.
+
+
+Los nombres de las columnas son los siguientes:
+
+	1.- Nº. EJECUCIONES: número de veces que se ha ejecutado cada configuración.
+
+	2.- Nº. GENERACIONES: número de generaciones durante las que se ha desarrollado la población inicial.
+
+	3.- TAMAÑO POBLACIÓN: número de individuos en la población inicial.
+
+	4.- HEURÍSTICA: nombre de la heurística de la que se ha añadido un representante en la población inicial. En caso de ser NO, la población inicial es completamente aleatoria.
+
+	5.- PROB. CRUCE: probabilidad de cruce aplicada.
+
+	6.- PROB MUTACIÓN: probabilidad de mutación aplicada.
+
+	7.- TAMAÑO TORNEO: tamaña del torneo que se aplica.
+
+	8.- MÍNIMO\MÁXIMO: mínimo\máximo obtenido de entre todas las ejecuciones realizadas para dicha configuración.
+
+	9.- MEDIA: media de los resultados finales de todas las ejecuciones realizadas para dicha configuración.
+
+	10.- DESV. TÍPICA: desviación típica de los resultados finales de todas las ejecuciones realizadas para dicha configuración.
+
+	11.- TIEMPO MEDIO: media de los tiempos en los que se realizan las ejecuciones. Expresado en segundos.
