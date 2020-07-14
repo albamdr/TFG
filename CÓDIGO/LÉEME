@@ -1,0 +1,15 @@
+¿CÓMO UTILIZAR EL CÓDIGO?
+
+En cada carpeta se encuentra un fichero .py del tipo:
+	
+	 nombre_del_problema_algoritmo_genético.py 
+
+este fichero es el que contiene la función pricipal para poder ejecutar el algoritmo genético.
+
+El resto de ficheros en las carpetas son necesarios para poder ejecutar el algoritmo genético pues son los que se encargan de:
+
+ - leer los ficheros con las intancias (read_nombre_del_problema_files.py)
+ - generar los individuos resultantes de las heurísticas (nombre_de_la_heurística_individuo.py)
+ - aplicar elitismo (elitism.py)
+
+Cada fichero contiene diferentes funciones que realizan las tareas nombradas más arriba. Cada función está debidamente documentada con su docstring correspondiente por lo que cualquier duda acerca de los tipos de los inputs o outputs pueden ser consultados ahí.
