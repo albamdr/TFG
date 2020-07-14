@@ -2,10 +2,6 @@ import pandas as pd
 import random, numpy
 import time
 
-CODEDIR = f"../../Code/MVC"
-import sys
-sys.path.append(CODEDIR)
-
 from read_MSC_files import read_MSC
 
 def greedy_msc_individual(filename):
