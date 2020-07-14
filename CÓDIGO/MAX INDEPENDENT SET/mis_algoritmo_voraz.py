@@ -38,7 +38,7 @@ def neighbours(G, N): #generamos una lista de listas de vecinos de cada vértice
 def greedy_mis(filename):
     
     """
-    Genera un individuo para el algoritmo genético a partir de la solución del algoritmo voraz
+    Algoritmo voraz para resolver instancias de max independent set
     
     input:
         filename:: Str, nombre del fichero en el que se encuentra la instancia
