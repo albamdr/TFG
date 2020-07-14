@@ -37,7 +37,7 @@ def neighbours(G, N): #generamos una lista de listas de vecinos de cada vértice
             neighbours[j-1].add(i)
     return neighbours
     
-def greedy_mvc(filename):
+def greedy_mis(filename):
     
     """
     Genera un individuo para el algoritmo genético a partir de la solución del algoritmo voraz
