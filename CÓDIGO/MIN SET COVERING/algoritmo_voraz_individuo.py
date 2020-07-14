@@ -2,9 +2,21 @@ import pandas as pd
 import random, numpy
 import time
 
+
 from read_MSC_files import read_MSC
 
 def greedy_msc_individual(filename):
+    
+    """
+    Genera un individuo para el algoritmo genético a partir de la solución del algoritmo voraz
+    
+    input:
+        filename:: Str, nombre del fichero en el que se encuentra la instancia
+    
+    output:
+        msc:: List, representante de la solución del algoritmo voraz
+    """
+        
     start = time.time()
     n_rows, n_cols, rows_set, cols_set, costs_list, a, b, w = read_MSC(filename)
 
