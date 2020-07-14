@@ -1,6 +1,10 @@
 ¿CÓMO UTILIZAR EL CÓDIGO?
 
-En cada carpeta se encuentra un fichero .py del tipo:
+Las heurísitcas se encunetran en los ficheros de la forma:
+	
+	nombre_del_problema_nombre_heurísitca.py
+
+Además, en cada carpeta se encuentra un fichero .py del tipo:
 	
 	 nombre_del_problema_algoritmo_genetico.py 
 
