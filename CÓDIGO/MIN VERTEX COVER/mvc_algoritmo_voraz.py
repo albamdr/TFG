@@ -12,7 +12,7 @@ def greedy_mvc(E, N, G):
     
     input:
         E:: Int, número de aristas
-        V:: Int, número de vértiices
+        N:: Int, número de vértices
         G:: List, grafo en forma de lista de aristas G[i] es la lista de aristas que salen de i
     
     output:
