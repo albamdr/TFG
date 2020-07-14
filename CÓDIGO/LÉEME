@@ -2,7 +2,7 @@
 
 En cada carpeta se encuentra un fichero .py del tipo:
 	
-	 nombre_del_problema_algoritmo_genético.py 
+	 nombre_del_problema_algoritmo_genetico.py 
 
 este fichero es el que contiene la función pricipal para poder ejecutar el algoritmo genético.
 
