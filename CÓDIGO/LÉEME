@@ -13,3 +13,5 @@ El resto de ficheros en las carpetas son necesarios para poder ejecutar el algor
  - aplicar elitismo (elitism.py)
 
 Cada fichero contiene diferentes funciones que realizan las tareas nombradas más arriba. Cada función está debidamente documentada con su docstring correspondiente por lo que cualquier duda acerca de los tipos de los inputs o outputs pueden ser consultados ahí.
+
+Para desarrollar los diferentes algoritmos genéticos se ha utilizado la librería DEAP, cuya documentación se puede encontrar en: https://deap.readthedocs.io/en/master/
