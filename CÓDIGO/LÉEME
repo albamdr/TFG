@@ -8,7 +8,7 @@ este fichero es el que contiene la función pricipal para poder ejecutar el algo
 
 El resto de ficheros en las carpetas son necesarios para poder ejecutar el algoritmo genético pues son los que se encargan de:
 
- - leer los ficheros con las intancias (read_nombre_del_problema_files.py)
+ - leer los ficheros con las isntancias (read_nombre_del_problema_files.py)
  - generar los individuos resultantes de las heurísticas (nombre_de_la_heurística_individuo.py)
  - aplicar elitismo (elitism.py)
 
