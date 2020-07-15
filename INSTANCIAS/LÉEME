@@ -1,0 +1,21 @@
+FUENTES DE LAS INSTANCIAS:
+
+PROBLEMA DE LA MOCHILA:
+ 
+ https://github.com/gleraromero/runner/find/master
+
+TSP:
+  
+  berlin52 y pr76: http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/tsp/
+  sahara: http://www.math.uwaterloo.ca/tsp/world/countries.html
+
+MIN VERTEX COVER Y MAX INDEPENDENT SET:
+ 
+  https://github.com/gyf1214/ewls-mvc/find/master
+
+MIN SET COVERING: 
+
+  http://people.brunel.ac.uk/~mastjjb/jeb/orlib/files/
+
+(en este link se encuentran con los nombres scpclr10, scpclr11, scpclr12)
+
