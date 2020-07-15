@@ -93,12 +93,12 @@ def greedy_tsp(d, N):
             
             if edge[0] == first:
                 first = edge[1]
-                sorted_T.append(edge
+                sorted_T.append(edge)
                 T.remove(edge)
                 
             elif edge[1] == first:
                 sorted_T.append((edge[1], edge[0]))
-                first = edge[0
+                first = edge[0]
                 T.remove(edge)
 
 
